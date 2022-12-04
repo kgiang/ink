@@ -38,6 +38,9 @@
 .btn-full {
     width: 100%;
 }
+.btn-no-rounded {
+    border-radius: 4px;
+}
 .btn-ink:hover,
 .btn-ink:visited,
 .btn-ink:focus {

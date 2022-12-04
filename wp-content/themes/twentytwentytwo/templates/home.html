@@ -4,7 +4,7 @@
 <main class="wp-block-query"><!-- wp:post-template {"align":"wide"} -->
 
     <div class="container">
-        <div class="select-block-container">
+        <div class="select-block-container" style="display:none;">
             <div class="select-block">
                 <h4 class="block-name">Assignment Writing Services</h4>
                 <img class="block-img" src="https://inkmypapers.sg/wp-content/themes/uplift-child/images/order-img-1.jpg" />
@@ -141,17 +141,17 @@
             </table>
         </div>
 
-        <div class="brief-step-container">
+        <div class="brief-step-container" style="display: block">
             <div class="step-container">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
                         <a href="#step-one" class="nav-link active" data-bs-toggle="tab">Details</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#step-two" class="nav-link" data-bs-toggle="tab">Finer details</a>
+                        <a href="#step-two" class="nav-link step-two-link" data-bs-toggle="tab">Finer details</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#step-three" class="nav-link" data-bs-toggle="tab">Upgrades</a>
+                        <a href="#step-three" class="nav-link step-three-link" data-bs-toggle="tab">Upgrades</a>
                     </li>
                 </ul>
                 <div class="ink-tab-content">
@@ -271,6 +271,13 @@
                                             </div>
                                         </div>
                                     </fieldset>
+
+                                    <a
+                                        id="next-step-two"
+                                        class="btn btn-primary btn-ink btn-no-rounded"
+                                    >
+                                        Next
+                                    </a>
                                 </div>
                             </div>
                             <div class="tab-pane tab-inside-content fade" id="step-two">
