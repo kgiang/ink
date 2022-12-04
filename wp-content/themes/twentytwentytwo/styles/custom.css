@@ -149,8 +149,14 @@
     flex-grow: 1;
 }
 
+.brief-step-container {
+    display: none;
+}
 .tab-content .tab-inside-content {
     padding: 16px;
+}
+.fade:not(.show) {
+    display: none;
 }
 .form-row {
     display: flex;

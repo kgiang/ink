@@ -4,7 +4,7 @@
 <main class="wp-block-query"><!-- wp:post-template {"align":"wide"} -->
 
     <div class="container">
-        <div class="select-block-container" style="display: none">
+        <div class="select-block-container">
             <div class="select-block">
                 <h4 class="block-name">Assignment Writing Services</h4>
                 <img class="block-img" src="https://inkmypapers.sg/wp-content/themes/uplift-child/images/order-img-1.jpg" />
@@ -154,131 +154,133 @@
                         <a href="#step-three" class="nav-link" data-bs-toggle="tab">Upgrades</a>
                     </li>
                 </ul>
-                <div class="tab-content ink-tab-content">
-                    <form class="form-horizontal order-form">
-                        <div class="tab-pane fade show active" id="step-one">
-                            <div class="tab-inside-content">
-                                <fieldset class="fieldset">
-                                    <legend class="fieldset-label">Course detail</legend>
-                                    <div class="flex">
-                                        <div class="mb-3 w-50">
-                                            <label class="col-form-label pe-3 order-label">University:</label>
+                <div class="ink-tab-content">
+                    <div class="tab-content">
+                        <form class="form-horizontal order-form">
+                            <div class="tab-pane fade show active" id="step-one">
+                                <div class="tab-inside-content">
+                                    <fieldset class="fieldset">
+                                        <legend class="fieldset-label">Course detail</legend>
+                                        <div class="flex">
+                                            <div class="mb-3 w-50">
+                                                <label class="col-form-label pe-3 order-label">University:</label>
+                                                <div class="col-sm-8">
+                                                    <select class="form-select" aria-label="University">
+                                                        <option value="1">Singapore</option>
+                                                        <option value="2">US</option>
+                                                        <option value="3">UK</option>
+                                                        <option value="3">AUS</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3 w-50">
+                                                <label class="col-form-label pe-3 order-label">Level of study:</label>
+                                                <div class="col-sm-8">
+                                                    <select class="form-select" aria-label="Level">
+                                                        <option value="1">Bachelor Degree</option>
+                                                        <option value="2">Diploma</option>
+                                                        <option value="3">Master</option>
+                                                        <option value="4">Professional Certificate</option>
+                                                        <option value="5">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 form-row">
+                                            <label class="col-sm-4 col-form-label pe-3 order-label">Word count:</label>
                                             <div class="col-sm-8">
-                                                <select class="form-select" aria-label="University">
-                                                    <option value="1">Singapore</option>
-                                                    <option value="2">US</option>
-                                                    <option value="3">UK</option>
-                                                    <option value="3">AUS</option>
+                                                <select class="form-select" aria-label="Word count">
+                                                    <option value="1">100 words</option>
+                                                    <option value="2">200 words</option>
+                                                    <option value="3">Over 300 words</option>
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="mb-3 w-50">
-                                            <label class="col-form-label pe-3 order-label">Level of study:</label>
+                                        <div class="mb-3 form-row">
+                                            <label class="col-sm-4 col-form-label pe-3 order-label">How many articles do you need?</label>
                                             <div class="col-sm-8">
-                                                <select class="form-select" aria-label="Level">
-                                                    <option value="1">Bachelor Degree</option>
-                                                    <option value="2">Diploma</option>
-                                                    <option value="3">Master</option>
-                                                    <option value="4">Professional Certificate</option>
-                                                    <option value="5">Other</option>
+                                                <select class="form-select" aria-label="Articles">
+                                                    <option value="1">5 and abovr (5% off)</option>
+                                                    <option value="2">8 and abovr (5% off)</option>
+                                                    <option value="3">10 and abovr (5% off)</option>
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="mb-3 form-row">
-                                        <label class="col-sm-4 col-form-label pe-3 order-label">Word count:</label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select" aria-label="Word count">
-                                                <option value="1">100 words</option>
-                                                <option value="2">200 words</option>
-                                                <option value="3">Over 300 words</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 form-row">
-                                        <label class="col-sm-4 col-form-label pe-3 order-label">How many articles do you need?</label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select" aria-label="Articles">
-                                                <option value="1">5 and abovr (5% off)</option>
-                                                <option value="2">8 and abovr (5% off)</option>
-                                                <option value="3">10 and abovr (5% off)</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 form-row">
-                                        <label class="col-sm-4 col-form-label pe-3 order-label">
-                                            Add on:<br>
-                                            SEO Keyword/Topic Research
-                                        </label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select mb-2" aria-label="Add-on">
-                                                <option value="1">Yes</option>
-                                                <option value="2">No</option>
-                                            </select>
-                                            <select class="form-select" aria-label="Add-on">
-                                                <option value="1">Yes (+$50)</option>
-                                                <option value="2">No</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                                <!--Type of work-->
-                                <fieldset class="fieldset">
-                                    <legend class="fieldset-label">Type of Work</legend>
-                                    <div class="flex flex-wrap">
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type1">
-                                            <label class="form-check-label" for="type1">
-                                                Essay / Report / Coursework
+                                        <div class="mb-3 form-row">
+                                            <label class="col-sm-4 col-form-label pe-3 order-label">
+                                                Add on:<br>
+                                                SEO Keyword/Topic Research
                                             </label>
+                                            <div class="col-sm-8">
+                                                <select class="form-select mb-2" aria-label="Add-on">
+                                                    <option value="1">Yes</option>
+                                                    <option value="2">No</option>
+                                                </select>
+                                                <select class="form-select" aria-label="Add-on">
+                                                    <option value="1">Yes (+$50)</option>
+                                                    <option value="2">No</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type2">
-                                            <label class="form-check-label" for="type2">
-                                                Full/Partial Dissertation
-                                            </label>
+                                    </fieldset>
+                                    <!--Type of work-->
+                                    <fieldset class="fieldset">
+                                        <legend class="fieldset-label">Type of Work</legend>
+                                        <div class="flex flex-wrap">
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type1">
+                                                <label class="form-check-label" for="type1">
+                                                    Essay / Report / Coursework
+                                                </label>
+                                            </div>
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type2">
+                                                <label class="form-check-label" for="type2">
+                                                    Full/Partial Dissertation
+                                                </label>
+                                            </div>
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type3">
+                                                <label class="form-check-label" for="type3">
+                                                    Law Assignment
+                                                </label>
+                                            </div>
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type4">
+                                                <label class="form-check-label" for="type4">
+                                                    Research Paper
+                                                </label>
+                                            </div>
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type5">
+                                                <label class="form-check-label" for="type5">
+                                                    Literature Review
+                                                </label>
+                                            </div>
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type6">
+                                                <label class="form-check-label" for="type6">
+                                                    Research Proposal
+                                                </label>
+                                            </div>
+                                            <div class="form-check type-radio mb-3">
+                                                <input class="form-check-input" type="radio" name="type" id="type7">
+                                                <label class="form-check-label" for="type7">
+                                                    Presentation
+                                                </label>
+                                            </div>
                                         </div>
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type3">
-                                            <label class="form-check-label" for="type3">
-                                                Law Assignment
-                                            </label>
-                                        </div>
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type4">
-                                            <label class="form-check-label" for="type4">
-                                                Research Paper
-                                            </label>
-                                        </div>
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type5">
-                                            <label class="form-check-label" for="type5">
-                                                Literature Review
-                                            </label>
-                                        </div>
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type6">
-                                            <label class="form-check-label" for="type6">
-                                                Research Proposal
-                                            </label>
-                                        </div>
-                                        <div class="form-check type-radio mb-3">
-                                            <input class="form-check-input" type="radio" name="type" id="type7">
-                                            <label class="form-check-label" for="type7">
-                                                Presentation
-                                            </label>
-                                        </div>
-                                    </div>
-                                </fieldset>
+                                    </fieldset>
+                                </div>
                             </div>
-                        </div>
-                        <div class="tab-pane tab-inside-content fade" id="step-two">
-                            <p>Finer details</p>
-                        </div>
-                        <div class="tab-pane tab-inside-content fade" id="step-three">
-                            <p>Upgrades</p>
-                        </div>
-                    </form>
+                            <div class="tab-pane tab-inside-content fade" id="step-two">
+                                <p>Finer details</p>
+                            </div>
+                            <div class="tab-pane tab-inside-content fade" id="step-three">
+                                <p>Upgrades</p>
+                            </div>
+                        </form>
+                    </div>
                     <div class="total-container">
                         <h4 class="total-title">Total Amount</h4>
                         <h5 class="total-price">$<span class="total-number">230</span></h5>
